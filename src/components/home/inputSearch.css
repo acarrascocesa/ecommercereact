@@ -1,0 +1,18 @@
+.inputSearch-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    gap: 40px;
+}
+
+.inputSearch-title {
+    color: rgb(253, 122, 122);
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.inputSearch {
+   width: 50%;
+}
