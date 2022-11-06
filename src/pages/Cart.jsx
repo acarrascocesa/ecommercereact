@@ -50,7 +50,7 @@ const Cart = () => {
   }
 
   return (
-    <div className="cart">
+    <div data-cy="cart" className="cart">
       <div className="cart__container">
         {
           cart?.products.map(product => (
@@ -61,8 +61,8 @@ const Cart = () => {
           ))
         }
       </div>
-      <h2>Total: ${total}</h2>
-      <button onClick={handlePurchase}>Buy Now</button>
+      <h2 data-cy="total">Total: ${total}</h2>
+      <button data-cy="button-buy" value="Buy Now" onClick={handlePurchase}>Buy Now</button>
     </div>
   )
 }

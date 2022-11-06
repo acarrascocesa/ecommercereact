@@ -33,7 +33,7 @@ const Home = () => {
 
 
   return (
-    <main className="home">
+    <main data-cy="home" className="home">
       <InputSearch
         setInputText={setInputText}
         inputText={inputText}

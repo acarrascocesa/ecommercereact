@@ -12,19 +12,19 @@ const Header = () => {
             <nav className='header__nav'>
                 <ul className='header__list'>
                     <li className='header__item'>
-                        <NavLink className='header__link' to="/login">
+                        <NavLink  className='header__link' value="login" to="/login">
                             Login
                         </NavLink>
                     </li>
 
                     <li className='header__item'>
-                        <NavLink className='header__link' to="/purchases">
+                        <NavLink className='header__link' value="purchases" to="/purchases">
                             Purchases
                         </NavLink>
                     </li>
 
                     <li className='header__item'>
-                        <NavLink className='header__link' to="/cart">
+                        <NavLink className='header__link' value="cart" to="/cart">
                             Cart
                         </NavLink>
                     </li>

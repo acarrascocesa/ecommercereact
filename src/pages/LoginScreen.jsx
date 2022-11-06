@@ -42,18 +42,18 @@ const LoginScreen = () => {
     return (
 
         <div>
-            <form onSubmit={handleSubmit(submit)}>
+            <form data-cy="form" onSubmit={handleSubmit(submit)}>
                 <div>
                     <label htmlFor="email">Email</label>
-                    <input type="email" id='email' {...register("email")} />
+                    <input data-cy="email" type="email" id='email' {...register("email")} />
                 </div>
 
                 <div>
                     <label htmlFor="password">Password</label>
-                    <input type="password" id='password' {...register("password")} />
+                    <input data-cy="password" type="password" id='password' {...register("password")} />
                 </div>
 
-                <button>Login</button>
+                <button data-cy="button" value="Login">Login</button>
             </form>
         </div>
     )
